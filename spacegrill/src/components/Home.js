@@ -1,5 +1,6 @@
 import logo from "../resources/logo.png"
 
+
 export const Home =()=>{
   <main>
   <div className="container-img"> <img className="img-logo" alt="logo priencipal">{logo}</img>  </div>
@@ -8,8 +9,8 @@ export const Home =()=>{
       <p>Burger</p>
     </div>
     <div className="container-links">
-    <link rel="stylesheet" href="../src/components/kitchen/Kitchen.js" />
-      <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./kitchen/kitchen.js" />
+      <link rel="stylesheet" href="./waitress/waitress.js" />
     </div>
   </main>
 }
