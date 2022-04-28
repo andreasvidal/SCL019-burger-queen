@@ -5,6 +5,7 @@
     background-color: #1E2022;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
 :root {
     --bg-color: #1E2022;
     --bg--menu: #2F2F2F;
@@ -20,6 +21,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    text-align: center;
     margin: 5rem;
 }
 
@@ -41,14 +43,12 @@
     width: 12.5rem;
     height: 3.125rem;
     background: #FFCB74;
-    border: 0.188rem solid #1E2022;
-    border-radius: 0.625rem;
+    border: 0.5rem solid #1E2022;
+    border-radius: 0.7rem;
     text-decoration: none;
     color: var(--bg-color);
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
-    text-align: center;
-    align-items: center;
     margin: 1rem;
     font-weight: bold;
     font-style: var(--font-main);
@@ -57,4 +57,5 @@
 .links:hover {
     background-color: var(--txt-menu);
     transition: 2.5s;
+    transform: rotate(x 90°);
 }
