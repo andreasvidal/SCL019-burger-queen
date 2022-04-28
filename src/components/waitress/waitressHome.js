@@ -1,7 +1,9 @@
+import {Header} from "../header/Header"
 
-export const waitressHome = () =>{
-  <main>
-  /*header*/
+export const WaitressHome = () =>{
+  return (
+    <main>
+  <Header></Header>
   /*nav */
     <div>
       <h1>AGREGAR PEDIDOS</h1>
@@ -21,6 +23,7 @@ export const waitressHome = () =>{
     /*productos*/
     <button></button>
   </main>
+  )
 }
 
 

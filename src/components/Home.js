@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
+import home from "./home.css"
+
 
 export const Home = () => {
   return (
     <main>
-      <img alt="logo principal">
-        {logo}
-      </img>
+      <img src="{logo}" alt="logo principal" />
       <div className="container">
         <h1 className="title-home">SPACEGRILL</h1>
-        <p>Burger</p>
+        <p className="title-home-b">Burger</p>
       </div>
-      <Link to="/kitchen">cocina</Link>
-      <Link to="/waitress">mesera</Link>
+      <div className="container-links">
+      <Link className="links" to="/kitchen">COCINA</Link>
+      <Link className="links" to="/waitress">MESEROS</Link>
+      </div>
     </main>
   );
 };
