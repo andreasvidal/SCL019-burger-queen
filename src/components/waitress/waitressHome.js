@@ -2,6 +2,7 @@
 export const waitressHome = () =>{
   <main>
   /*header*/
+  /*nav */
     <div>
       <h1>AGREGAR PEDIDOS</h1>
       <label for="order-time">Order Time</label>
