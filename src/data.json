@@ -1,0 +1,146 @@
+{
+    "products": [{
+            "id": "1",
+            "name": "Chacareitor",
+            "description": "Churrasco seitán, tomate, queso, palta, poroto verde, ají y mayonesa de soya.",
+            "type": "Hamburger",
+            "price": 6000,
+            "img": ""
+        },
+        {
+            "id": "2",
+            "name": "Good Girl",
+            "description": "Churrasco seitán, queso fundido, cebolla caramelizada, aros de cebolla, bacon vegan, salsa BBQ y mayonesa de soya.",
+            "type": "Hamburger",
+            "price": 7000,
+            "img": ""
+        },
+        {
+            "id": "3",
+            "name": "La Clásica",
+            "description": " 150 gramos de carne de vacuno, queso cheddar gringo laminado, lechuga, tomate, cebolla, papas hilo y salsas mayonesa, kétchup y mostaza.",
+            "type": "Hamburger",
+            "price": 6000,
+            "img": ""
+        },
+        {
+            "id": "4",
+            "name": "La T.A.",
+            "description": "Sándwich con 300 gramos de carne de vacuno, queso cheddar gringo laminado, lechuga, tomate, cebolla, papas hilo y salsas mayonesa, kétchup y mostaza.",
+            "type": "Hamburger",
+            "price": 7000,
+            "img": ""
+        },
+        {
+            "id": "5",
+            "name": "Jugos",
+            "description": "Jugos naturales hechos con fruta fresca de temporada",
+            "type": "Drinks",
+            "price": 2000,
+            "variety": ["Jugo de piña", "Jugo de mango", "Jugo de fritulla", "Jugo de naranja"],
+            "img": ""
+        },
+        {
+            "id": "6",
+            "name": "Bebidas",
+            "description": "Bebidas en botella de vidrio, formato 350 CC",
+            "type": "Drinks",
+            "price": 1500,
+            "variety": ["coca-cola", "fanta", "sprite", "7up", "bilz", "pap"],
+            "img": ""
+
+        },
+        {
+            "id": "7",
+            "name": "Bebidas Calientes",
+            "description": "Café o te variedades (taza 300 cc)",
+            "type": "Drinks",
+            "price": 2000,
+            "variety": {
+                "name": [
+                    "Cafe xpresso", "cortado", "capuccino", "irlandés", "té", "té con limón", "te con leche", "te de hiervas", "te verde"
+                ]
+            },
+            "img": ""
+        },
+        {
+            "id": "8",
+            "name": "Cervezas",
+            "description": "Cervezas nacionales e importadas",
+            "type": "Drinks",
+            "price": 3500,
+            "variety": {
+                "national": ["cristal", "austral", "kunstmann", "brahma"],
+                "imported": ["d'olbek", "hertog", "schofferhofer", "gulden drag"]
+            },
+            "img": ""
+        },
+        {
+            "id": "9",
+            "name": "Cheescake",
+            "description": "Cheescacke variedades base de galletas graham, mezcla de cheescacke propia cubierto por coulis de frutas a elección",
+            "type": "Dessert",
+            "price": 3500,
+            "variety": ["Frambuesa", "Frutilla", "Maracuyá", "Chocolate"],
+            "img": ""
+        },
+        {
+            "id": "10",
+            "name": "Sopaipillas Pasadas (porción 3 sopaipillas)",
+            "description": "exisita masa (elaboración propia) cocinada en una sabroza mezcla de chancaca, canela, ralladura de limón y naranja",
+            "type": "Dessert",
+            "price": 2500,
+            "img": ""
+        },
+        {
+            "id": "11",
+            "name": "Helados Artesanales",
+            "description": "copa de helados 3 sabores a elección (puedes elegir cualquier sabor con un máximo de 3 bolas)",
+            "type": "Dessert",
+            "price": 3000,
+            "variety": ["Chocolate", "Frambuesa", "Pistacho", "Vainilla", "Frambuesa", "Mix-Frutal", "Tres Leche"],
+            "img": ""
+        },
+        {
+            "id": "12",
+            "name": "Panna Cotta",
+            "description": "Panna Cotta tradicional Italiana",
+            "type": "Dessert",
+            "price": 3000,
+            "variety": ["Frambuesa", "Chocolate", "Berries"],
+            "img": ""
+        },
+        {
+            "id": "13",
+            "name": "Ensalada Mix",
+            "description": "Mix de lechugas aderezada con aceite de oliva, jugo de limon y pizca de sal (se puede agregar palta)",
+            "type": "Salads",
+            "price": 3500,
+            "img": ""
+        },
+        {
+            "id": "14",
+            "name": "Ensalada Griega",
+            "description": "Queso de cabra en cubos, tomate en cubos,aceite de oliva, pepino, aceitunas negras, pizca de sal, pimienta negra y oregano",
+            "type": "Salads",
+            "price": 4000,
+            "img": ""
+        },
+        {
+            "id": "15",
+            "name": "Ensalasa Caprese ",
+            "description": "Finas rebanadas de tomate, albaca, aceite de oliva, pizca de sal y pimienta junto  delicados trozos de queso Mozzrella",
+            "type": "Salads",
+            "price": 4500,
+            "img": ""
+        },
+        {
+            "id": "16",
+            "name": "A la Chilena",
+            "description": "finas rodajas de tomate junto a la más exisita cebolla morada, aderesada con jugo de limon, aceite de oliva y sal",
+            "type": "Salads",
+            "price": 3500,
+            "img": ""
+        }
+    ]
+}

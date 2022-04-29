@@ -1,4 +1,5 @@
 import {Header} from "../header/Header"
+import { Product } from "../waitress/Products"
 import "./waitress.css"
 
 export const WaitressHome = () =>{
@@ -20,7 +21,7 @@ export const WaitressHome = () =>{
         <input type="text" name="name" id="name" required placeholder="" />
       </div>
     </form>
-    {/*productos*/}
+    <Product></Product>
     <button ></button>
   </main>
   )

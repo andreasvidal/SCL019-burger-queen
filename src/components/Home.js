@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../img/logo.png";
+import logo from "../img/logo-mobil.png";
 import "./home.css";
 
 //const logo = require("./img/logo.png").default;
@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <main>
       <div className="container-img">
-        <img src={logo} alt="logo principal" />
+        <img  className="img-logo" src={logo} alt="logo principal" />
       </div>
       <div className="container">
         <h1 className="title-home">SPACEGRILL</h1>

@@ -24,12 +24,21 @@
     margin: 3rem;
 }
 
+.container-links {
+    border: 0.5rem solid #2F2F2F;
+    border-radius: 1rem;
+}
+
 .container-img {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-items: center;
-    margin-top: 0.5rem;
-    height: max-content;
+    margin-top: 2rem;
+}
+
+.img-logo {
+    height: 20rem;
+    width: 20rem;
 }
 
 .title-home {
@@ -47,18 +56,17 @@
 }
 
 .links {
-    width: 12.5rem;
-    height: 3.125rem;
+    width: 15.5rem;
+    height: 4.125rem;
     background: #FFCB74;
     border: 0.5rem solid #1E2022;
     border-radius: 1.5rem;
     text-decoration: none;
     color: var(--bg-color);
-    font-size: 1.25rem;
+    font-size: 2.25rem;
     cursor: pointer;
     margin: 1rem;
     font-weight: bold;
-    font-style: var(--font-main);
     align-items: center;
 }
 

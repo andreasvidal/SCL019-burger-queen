@@ -15,11 +15,13 @@
     text-align: center;
     color: #FFCB74;
     font-family: var(--font-main);
-    margin-top: 5rem;
+    margin-top: 3rem;
+    font-size: 2rem;
 }
 
 .label-time {
     color: #F6F6F6;
+    font-size: 2rem;
 }
 
 .form-container {
@@ -28,6 +30,7 @@
     text-align: center;
     color: #F6F6F6;
     font-family: var(--font-main);
+    font-size: 1.5rem;
     cursor: auto;
 }
 
@@ -43,14 +46,19 @@ input[type="text"] {
     background-color: transparent;
     border: 0.1rem solid #FFCB74;
     border-radius: 3.75rem;
-    height: 1.5rem;
+    height: 2.5rem;
+    width: 20rem;
 }
 
 input[type="datetime-local"] {
     background-color: none;
     border: none;
-    display: flex;
-    justify-content: right;
+    height: 2.5rem;
+}
+
+.input-label {
+    color: #F6F6F6;
+    font-size: 1.5rem;
 }
 
 ::placeholder {
