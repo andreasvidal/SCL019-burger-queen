@@ -7,7 +7,7 @@ const App = () => {
       <Routes>
           <Route   path="/" element={<Home />} />
           <Route path="/waitress" element={<WaitressHome/>}/>
-          /*<Route path="*" element={
+          <Route path="*" element={
             <div>
               <h1>PAGINA NO ENCONTRADA ERROR 404</h1>
               <h2>La URL a la que ingresaste es incorrecta.</h2>
