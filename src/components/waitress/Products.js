@@ -1,6 +1,7 @@
 
 import  { useState, useContext } from "react";
 import {MenuContext} from "./Order"
+import { FiArrowUpCircle } from "react-icons/fi";
 import "./products.css";
 
 /* ({}) = desestructuración seria igual que poner props.nombre */
@@ -11,6 +12,7 @@ export const Product = ({data}) => {
 
   const productType = (options) =>{
     switch (options){
+       // eslint-disable-next-line default-case
       case "Hamburger":
         const hamb = data.filter((elem)=> elem.type === options );
         setProduct(hamb);
@@ -28,7 +30,6 @@ export const Product = ({data}) => {
           const Salads = data.filter((elem)=> elem.type === options );
           setProduct(Salads);
           break;
-
     }
   }
 
@@ -52,6 +53,7 @@ export const Product = ({data}) => {
             <p className="title-items p-items">{item.variety}</p>
             <br />
             <h2 className="title-items" >${item.price}</h2>
+            <button onClick={() => context.addProduct(item)} className="btn-add"><FiArrowUpCircle className="icons"></FiArrowUpCircle></button>
           </article>
         ))}
       </section>
