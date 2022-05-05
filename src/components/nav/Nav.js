@@ -27,17 +27,17 @@ export const Nav = () => {
     <nav>
       {(toggleMenu || screenWidth > 500) && (
         <ul className="list">
-          <Link className="items" to="/home" >
-           <FiHome></FiHome> INICIO
+          <Link className="items" to="/" >
+           <FiHome className="icon-menu"></FiHome> INICIO
           </Link>
           <Link className="items" to="/takeORder" >
-          <FiClipboard></FiClipboard>  TOMAR PEDIDOS
+          <FiClipboard className="icon-menu"></FiClipboard>  TOMAR PEDIDOS
           </Link>
           <Link className="items" to="/orders" >
-          <FiClock></FiClock>  PEDIDOS
+          <FiClock className="icon-menu"></FiClock>  PEDIDOS
           </Link>
           <Link className="items" to="/delivered" >
-          <FiCheckSquare></FiCheckSquare>  ENTREGADOS
+          <FiCheckSquare className="icon-menu"></FiCheckSquare>  ENTREGADOS
           </Link>
         </ul>
       )}

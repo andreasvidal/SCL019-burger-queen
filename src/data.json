@@ -1,11 +1,11 @@
 {
-    "products": [{
+    "menu": [{
             "id": "1",
             "name": "Chacareitor",
             "description": "Churrasco seitán, tomate, queso, palta, poroto verde, ají y mayonesa de soya.",
             "type": "Hamburger",
             "price": 6000,
-            "img": ""
+            "img": "https://www.gourmet.cl/wp-content/uploads/2019/04/Chacarero-edit.jpg"
         },
         {
             "id": "2",
@@ -37,8 +37,13 @@
             "description": "Jugos naturales hechos con fruta fresca de temporada",
             "type": "Drinks",
             "price": 2000,
-            "variety": ["Jugo de piña", "Jugo de mango", "Jugo de fritulla", "Jugo de naranja"],
-            "img": ""
+            "variety": [
+                "Jugo de piña",
+                "Jugo de mango",
+                "Jugo de fritulla",
+                "Jugo de naranja"
+            ],
+            "img": "https://www.freepik.es/fotos-premium/diferentes-tipos-mojito-cocktail-marron-oscuro_4901775.htm#query=refrescos&position=10&from_view=keyword"
         },
         {
             "id": "6",
@@ -48,7 +53,6 @@
             "price": 1500,
             "variety": ["coca-cola", "fanta", "sprite", "7up", "bilz", "pap"],
             "img": ""
-
         },
         {
             "id": "7",
@@ -58,7 +62,15 @@
             "price": 2000,
             "variety": {
                 "name": [
-                    "Cafe xpresso", "cortado", "capuccino", "irlandés", "té", "té con limón", "te con leche", "te de hiervas", "te verde"
+                    "Cafe xpresso",
+                    "cortado",
+                    "capuccino",
+                    "irlandés",
+                    "té",
+                    "té con limón",
+                    "te con leche",
+                    "te de hiervas",
+                    "te verde"
                 ]
             },
             "img": ""
@@ -73,7 +85,7 @@
                 "national": ["cristal", "austral", "kunstmann", "brahma"],
                 "imported": ["d'olbek", "hertog", "schofferhofer", "gulden drag"]
             },
-            "img": ""
+            "img": "https://www.freepik.es/fotos-premium/vasos-cerveza-clara-oscura-trigo-sobre-fondo-oscuro_8435185.htm#query=drinks&position=31&from_view=search"
         },
         {
             "id": "9",
@@ -81,8 +93,13 @@
             "description": "Cheescacke variedades base de galletas graham, mezcla de cheescacke propia cubierto por coulis de frutas a elección",
             "type": "Dessert",
             "price": 3500,
-            "variety": ["Frambuesa", "Frutilla", "Maracuyá", "Chocolate"],
-            "img": ""
+            "variety": [
+                "Frambuesa",
+                "Frutilla",
+                "Maracuyá",
+                "Chocolate"
+            ],
+            "img": "https://www.freepik.es/foto-gratis/vista-lateral-tarta-queso-gelatina-cereza-parte-superior-plato-blanco_7747676.htm#query=dessert&position=0&from_view=search"
         },
         {
             "id": "10",
@@ -98,7 +115,15 @@
             "description": "copa de helados 3 sabores a elección (puedes elegir cualquier sabor con un máximo de 3 bolas)",
             "type": "Dessert",
             "price": 3000,
-            "variety": ["Chocolate", "Frambuesa", "Pistacho", "Vainilla", "Frambuesa", "Mix-Frutal", "Tres Leche"],
+            "variety": [
+                "Chocolate",
+                "Frambuesa",
+                "Pistacho",
+                "Vainilla",
+                "Frambuesa",
+                "Mix-Frutal",
+                "Tres Leche"
+            ],
             "img": ""
         },
         {
@@ -107,7 +132,11 @@
             "description": "Panna Cotta tradicional Italiana",
             "type": "Dessert",
             "price": 3000,
-            "variety": ["Frambuesa", "Chocolate", "Berries"],
+            "variety": [
+                "Frambuesa",
+                "Chocolate",
+                "Berries"
+            ],
             "img": ""
         },
         {

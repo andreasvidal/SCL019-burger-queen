@@ -22,7 +22,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-bottom: 2rem;
+    padding: 3rem 0 6.5rem 0;
 }
 
 .items {
@@ -30,15 +30,15 @@ nav {
     font-size: 1.2rem;
     cursor: pointer;
     text-decoration: none;
-    background-color: #2F2F2F;
     color: #F6F6F6;
     font-family: var(--font-main);
     margin-top: 2rem;
     font-size: 1.5rem;
+    background: none;
 }
 
 .items:hover {
-    background-color: #1e2022ab;
+    transform: scale(1.15);
     font-size: 1.5rem;
     padding: 0.3rem;
     border-radius: 0.5rem;
@@ -57,9 +57,14 @@ nav {
 
 .icono {
     color: #FFCB74;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     padding: 1rem;
+    background-color: #2F2F2F;
+}
+
+.icon-menu {
+    background: none;
 }
 
 @media screen and (max-width: 500px) {

@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
 .btn-container {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: space-around;
     width: fit-content;
 }
 
@@ -9,9 +10,56 @@
     background-color: #FFCB74;
     color: #2F2F2F;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 2rem 1rem;
     border: 0.1rem solid #FFCB74;
     border-radius: 3.75rem;
     padding: 1rem;
+    justify-content: space-between;
+}
+
+.btn-products:hover {
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.container-items {
+    display: flex;
+    background-color: transparent;
+    height: auto;
+    width: 20vh;
+    margin: 1rem 0 0 1rem;
+    cursor: pointer;
+}
+
+.items-menu {
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid #FFCB74;
+    background-color: #f6f6f667;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    margin: 0.6rem;
+    width: 10rem;
+}
+
+.title-items {
+    color: #f6f6f67a;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    margin: 0.3rem;
+}
+
+.p-items {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+}
+
+.color-title {
+    color: #FFCB74;
 }

@@ -24,11 +24,6 @@
     margin: 3rem;
 }
 
-.container-links {
-    border: 0.5rem solid #2F2F2F;
-    border-radius: 1rem;
-}
-
 .container-img {
     display: grid;
     grid-template-columns: 1fr;
@@ -56,8 +51,8 @@
 }
 
 .links {
-    width: 15.5rem;
-    height: 4.125rem;
+    width: 17rem;
+    height: 5rem;
     background: #FFCB74;
     border: 0.5rem solid #1E2022;
     border-radius: 1.5rem;
@@ -68,10 +63,12 @@
     margin: 1rem;
     font-weight: bold;
     align-items: center;
+    text-align: center;
 }
 
 .links:hover {
     background-color: var(--txt-menu);
-    transition: 2.5s;
-    transform: rotate(x 90°);
+    transition: 2s;
+    color: #FFCB74;
+    -webkit-text-stroke: 0.1rem #0a0a0a;
 }
