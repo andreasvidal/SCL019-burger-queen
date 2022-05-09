@@ -1,71 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
-:root {
-    --bg-color: #1E2022;
-    --bg--menu: #2F2F2F;
-    --txt-menu: #F6F6F6;
-    --principal-txt-color: #FFCB74;
-    --font-main: 'Roboto', sans-serif;
-}
+    .container-total {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
 
-.container-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #FFCB74;
-    font-family: var(--font-main);
-    margin: 5rem 0 3rem 0;
-    text-decoration: underline;
-}
+    .container-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFCB74;
+        font-family: var(--font-main);
+        margin: 5rem 0 4rem 0;
+        text-decoration: underline;
+    }
 
-.label-time {
-    color: #F6F6F6;
-    font-size: 2rem;
-}
+    .cart {
+        width: auto;
+    }
 
-.form-container {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #F6F6F6;
-    font-family: var(--font-main);
-    font-size: 1.5rem;
-    cursor: auto;
-}
-
-.form-section {
-    margin: 2rem;
-}
-
-.label-form {
-    margin-right: 1rem;
-}
-
-input[type="text"] {
-    background-color: transparent;
-    border: 0.1rem solid #FFCB74;
-    border-radius: 3.75rem;
-    height: 2.5rem;
-    width: 20rem;
-}
-
-input[type="datetime-local"] {
-    background-color: none;
-    border: none;
-    height: 2.5rem;
-}
-
-.input-label {
-    color: #F6F6F6;
-    font-size: 1.5rem;
-}
-
-::placeholder {
-    color: #F6F6F6;
-}
-
-.btn-form {
-    direction: initial;
-    border: none;
-}
+    input[type="text"],
+    input[type="number"] {
+        background-color: transparent;
+        border: 0.1rem solid #FFCB74;
+        border-radius: 3.75rem;
+        height: 2.5rem;
+        width: 15rem;
+        margin-left: 1.2rem;
+        color: #f6f6f6;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+    }

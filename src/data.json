@@ -5,7 +5,7 @@
             "description": "Churrasco seitán, tomate, queso, palta, poroto verde, ají y mayonesa de soya.",
             "type": "Hamburger",
             "price": 6000,
-            "img": "https://www.gourmet.cl/wp-content/uploads/2019/04/Chacarero-edit.jpg"
+            "img": ""
         },
         {
             "id": "2",
@@ -43,7 +43,7 @@
                 "Jugo de fritulla",
                 "Jugo de naranja"
             ],
-            "img": "https://www.freepik.es/fotos-premium/diferentes-tipos-mojito-cocktail-marron-oscuro_4901775.htm#query=refrescos&position=10&from_view=keyword"
+            "img": ""
         },
         {
             "id": "6",

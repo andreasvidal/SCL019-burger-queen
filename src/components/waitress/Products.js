@@ -35,8 +35,8 @@ export const Product = ({data}) => {
 
   return(
     <>
-      <section>
-        <ul>
+      <section className="container-product">
+        <ul className="container-btn">
           <button onClick={()=> productType("Hamburger")} className="btn-products">Hamburguesas</button>
           <button onClick={()=> productType("Drinks")} className="btn-products">Para Beber</button>
           <button onClick={()=> productType("Dessert")} className="btn-products">Postres</button>
@@ -50,9 +50,9 @@ export const Product = ({data}) => {
             <h1 className="title-items">{item.name} </h1>
             <br />
             <p className="title-items color-title">Variedades:</p>
-            <p className="title-items p-items">{item.variety}</p>
+            <p className="title-items ">{item.variety}</p>
             <br />
-            <h2 className="title-items" >${item.price}</h2>
+            <h2 className="title-items p-items" >${item.price}</h2>
             <button onClick={() => context.addProduct(item)} className="btn-add"><FiArrowUpCircle className="icons"></FiArrowUpCircle></button>
           </article>
         ))}

@@ -33,7 +33,8 @@ export const WaitressHome = () => {
     });
   };
 
-  const removeProduct = (id) => {
+  const removeProduct = (id, e) => {
+    e.preventDefault();
     console.log(removeProduct);
     setState({
       ...state,
@@ -41,7 +42,9 @@ export const WaitressHome = () => {
     });
   };
 
-  const increase = (id) => {
+  const increase = (id, e) => {
+    e.preventDefault(increase);
+    console.log(e.preventDefault(increase))
     setState({
       ...state,
       cart: state.cart.map((cartProduct) =>
@@ -59,25 +62,28 @@ export const WaitressHome = () => {
     })
   }
 
-  const decrease = (id) => {
+  const decrease = (id, e) => {
+    e.preventDefault();
     setState({
     ...state,
     cart: state.cart.map((cartProduct)=> cartProduct.id === id
-    ? {...cartProduct, count: cartProduct.count > 1 ? -1 : 1}
+    ? {...cartProduct, count: cartProduct.count > 0 ? cartProduct.count - 1 : 0}
     : cartProduct
-     )
-   })
+      )
+    })
   }
 
-  const sum = { state,addProduct, increase, removeProduct, decrease, removeAll }
+  const sum = { state, addProduct, increase, removeProduct, decrease, removeAll }
   return (
     <MenuContext.Provider value={sum}>
-      <main >
-        <Header></Header>
+    <Header></Header>
+      <main className="container-total">
+        <div className="container-product">
         <h1 className="container-title">AGREGAR PRODUCTOS</h1>
         <Product data={data} />
+        </div>
+        <Cart/>
       </main>
-      <Cart/>
     </MenuContext.Provider>
   )
 }

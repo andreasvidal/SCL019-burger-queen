@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
-.btn-container {
+.container-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: fit-content;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 1.5rem;
 }
 
-.btn-products {
+.container-btn {
+    margin-top: -3rem;
+}
+
+.btn-products,
+.btn-center {
     background-color: #FFCB74;
     color: #2F2F2F;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 2rem 1rem;
     border: 0.1rem solid #FFCB74;
     border-radius: 3.75rem;
     padding: 1rem;
-    justify-content: space-between;
+    width: 20vh;
+    height: auto;
 }
 
 .btn-products:hover {
@@ -24,20 +31,9 @@
     transform: scale(1.15);
 }
 
-.container-items {
-    display: flex;
-    background-color: transparent;
-    height: auto;
-    width: 20vh;
-    margin: 1rem 0 0 1rem;
-    cursor: pointer;
-}
-
 .items-menu {
-    display: flex;
-    flex-direction: column;
     border: 0.2rem solid #FFCB74;
-    background-color: #f6f6f667;
+    background-color: #f6f6f61f;
     border-radius: 1rem;
     padding-top: 0.5rem;
     margin: 0.6rem;
@@ -45,35 +41,33 @@
 }
 
 .title-items {
-    color: #f6f6f67a;
+    color: #f6f6f6;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    padding: 0.4rem;
-    margin: 0.3rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    background: none;
 }
 
-.p-items {
+.btn-add {
+    margin-top: 0.5rem;
+    background: none;
+    border: none;
     display: flex;
-    flex-direction: column;
-    text-align: justify;
     justify-content: center;
-}
-
-.color-title {
-    color: #FFCB74;
+    align-items: center;
+    text-align: center;
 }
 
 .icons {
     height: 2rem;
     width: 2rem;
     color: #FFCB74;
-    justify-content: center;
-    align-items: center;
-    background: none;
     border: 0.5px solid #FFCB74;
     border-radius: 50%;
     cursor: pointer;
+    margin-left: 4rem;
 }
 
 .icons:hover {
@@ -82,8 +76,6 @@
     background: none;
 }
 
-.btn-add {
-    margin-top: 0.5rem;
-    background: none;
-    border: none;
+.p-items {
+    color: #FFCB74;
 }

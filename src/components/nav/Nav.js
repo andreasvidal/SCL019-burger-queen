@@ -25,12 +25,12 @@ export const Nav = () => {
 
   return (
     <nav>
-      {(toggleMenu || screenWidth > 500) && (
+      {(toggleMenu || screenWidth > 768) && (
         <ul className="list">
           <Link className="items" to="/" >
-           <FiHome className="icon-menu"></FiHome> INICIO
+          <FiHome className="icon-menu"></FiHome> INICIO
           </Link>
-          <Link className="items" to="/takeORder" >
+          <Link className="items" to="/order" >
           <FiClipboard className="icon-menu"></FiClipboard>  TOMAR PEDIDOS
           </Link>
           <Link className="items" to="/orders" >
