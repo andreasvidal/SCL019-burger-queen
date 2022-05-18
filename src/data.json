@@ -5,7 +5,7 @@
             "description": "Churrasco seitán, tomate, queso, palta, poroto verde, ají y mayonesa de soya.",
             "type": "Hamburger",
             "price": 6000,
-            "img": ""
+            "img": "https://media.biobiochile.cl/wp-content/uploads/2020/02/chacarero.png"
         },
         {
             "id": "2",
@@ -13,7 +13,7 @@
             "description": "Churrasco seitán, queso fundido, cebolla caramelizada, aros de cebolla, bacon vegan, salsa BBQ y mayonesa de soya.",
             "type": "Hamburger",
             "price": 7000,
-            "img": ""
+            "img": "https://i0.wp.com/www.gastronomico.org/wp-content/uploads/2015/03/barros-luco-tocino-2.jpg?resize=960%2C600&ssl=1"
         },
         {
             "id": "3",
@@ -21,7 +21,7 @@
             "description": " 150 gramos de carne de vacuno, queso cheddar gringo laminado, lechuga, tomate, cebolla, papas hilo y salsas mayonesa, kétchup y mostaza.",
             "type": "Hamburger",
             "price": 6000,
-            "img": ""
+            "img": "https://media-cdn.tripadvisor.com/media/photo-s/1a/8e/2a/59/capitao-charles-vane.jpg"
         },
         {
             "id": "4",
@@ -29,7 +29,7 @@
             "description": "Sándwich con 300 gramos de carne de vacuno, queso cheddar gringo laminado, lechuga, tomate, cebolla, papas hilo y salsas mayonesa, kétchup y mostaza.",
             "type": "Hamburger",
             "price": 7000,
-            "img": ""
+            "img": "https://www.kitchensanctuary.com/wp-content/uploads/2021/05/Double-Cheeseburger-square-FS-42.jpg"
         },
         {
             "id": "5",
@@ -37,13 +37,7 @@
             "description": "Jugos naturales hechos con fruta fresca de temporada",
             "type": "Drinks",
             "price": 2000,
-            "variety": [
-                "Jugo de piña",
-                "Jugo de mango",
-                "Jugo de fritulla",
-                "Jugo de naranja"
-            ],
-            "img": ""
+            "img": "https://cdn7.kiwilimon.com/clasificacion/3888/3888.jpg"
         },
         {
             "id": "6",
@@ -51,8 +45,7 @@
             "description": "Bebidas en botella de vidrio, formato 350 CC",
             "type": "Drinks",
             "price": 1500,
-            "variety": ["coca-cola", "fanta", "sprite", "7up", "bilz", "pap"],
-            "img": ""
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS--3uBT3BjgBemYvgzANpPZwGm_1UiwQLZ1w&usqp=CAU"
         },
         {
             "id": "7",
@@ -60,20 +53,7 @@
             "description": "Café o te variedades (taza 300 cc)",
             "type": "Drinks",
             "price": 2000,
-            "variety": {
-                "name": [
-                    "Cafe xpresso",
-                    "cortado",
-                    "capuccino",
-                    "irlandés",
-                    "té",
-                    "té con limón",
-                    "te con leche",
-                    "te de hiervas",
-                    "te verde"
-                ]
-            },
-            "img": ""
+            "img": "https://www.cocinayvino.com/wp-content/uploads/2020/12/www.cocinayvino.com-bebidas-para-calentar-las-navidades-frias-109394362-m-1-1024x576.jpg"
         },
         {
             "id": "8",
@@ -81,11 +61,7 @@
             "description": "Cervezas nacionales e importadas",
             "type": "Drinks",
             "price": 3500,
-            "variety": {
-                "national": ["cristal", "austral", "kunstmann", "brahma"],
-                "imported": ["d'olbek", "hertog", "schofferhofer", "gulden drag"]
-            },
-            "img": "https://www.freepik.es/fotos-premium/vasos-cerveza-clara-oscura-trigo-sobre-fondo-oscuro_8435185.htm#query=drinks&position=31&from_view=search"
+            "img": "https://amqueretaro.com/wp-content/uploads/2020/08/portada-cerveza-1200x814.jpg"
         },
         {
             "id": "9",
@@ -93,13 +69,7 @@
             "description": "Cheescacke variedades base de galletas graham, mezcla de cheescacke propia cubierto por coulis de frutas a elección",
             "type": "Dessert",
             "price": 3500,
-            "variety": [
-                "Frambuesa",
-                "Frutilla",
-                "Maracuyá",
-                "Chocolate"
-            ],
-            "img": "https://www.freepik.es/foto-gratis/vista-lateral-tarta-queso-gelatina-cereza-parte-superior-plato-blanco_7747676.htm#query=dessert&position=0&from_view=search"
+            "img": "https://www.verybestbaking.com/sites/g/files/jgfbjl166/files/thumbnail/105640-6112958c9af0f0a7ebadbb053faa2f73_bak---03---cherry-berry-cheesecake-657_edit.jpg"
         },
         {
             "id": "10",
@@ -107,7 +77,7 @@
             "description": "exisita masa (elaboración propia) cocinada en una sabroza mezcla de chancaca, canela, ralladura de limón y naranja",
             "type": "Dessert",
             "price": 2500,
-            "img": ""
+            "img": "https://www.vallesdelsol.cl/wp-content/uploads/2020/05/sopaipilla-pasada.jpeg"
         },
         {
             "id": "11",
@@ -115,16 +85,7 @@
             "description": "copa de helados 3 sabores a elección (puedes elegir cualquier sabor con un máximo de 3 bolas)",
             "type": "Dessert",
             "price": 3000,
-            "variety": [
-                "Chocolate",
-                "Frambuesa",
-                "Pistacho",
-                "Vainilla",
-                "Frambuesa",
-                "Mix-Frutal",
-                "Tres Leche"
-            ],
-            "img": ""
+            "img": "https://estaticos-cdn.prensaiberica.es/clip/cee14400-6c2a-4280-9160-14bae5db1e2e_16-9-aspect-ratio_default_0.jpg"
         },
         {
             "id": "12",
@@ -132,12 +93,7 @@
             "description": "Panna Cotta tradicional Italiana",
             "type": "Dessert",
             "price": 3000,
-            "variety": [
-                "Frambuesa",
-                "Chocolate",
-                "Berries"
-            ],
-            "img": ""
+            "img": "https://images.aws.nestle.recipes/original/8c2b1101a8451079012eebd3d21c4bd4_pannacotta.png"
         },
         {
             "id": "13",

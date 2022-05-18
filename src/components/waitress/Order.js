@@ -6,20 +6,19 @@ import "./order.css"
 import { Cart } from "./Cart";
 
 export const MenuContext = createContext();
-console.log(MenuContext)
 
 export const WaitressHome = () => {
   const data = dataJson.menu;
-  console.table(data)
+
   const [state, setState] = useState({
     menuList: data,
     cart: []
   });
-  console.log(state.cart);
+
 
   //producto a agregar
   const addProduct = (product) => {
-    console.log(addProduct);
+
     //el nuevo estado sera un carrito con productos
     return setState({
       ...state,
@@ -28,14 +27,13 @@ export const WaitressHome = () => {
         ? state.cart.map((cartProduct) => cartProduct.id === product.id //comprobar si el producto que tenemos en el carrito es igual
                                                                          //a un producto nuevo que queremos agregar
           ? { ...cartProduct, count: cartProduct.count + 1 } : cartProduct)
-        : [...state.cart, { ...product, count: 1 }] // se ejecuta en caso de agregar un producto que no est en el carrito
+        : [...state.cart, { ...product, count: 1 }] // se ejecuta en caso de agregar un producto que no este en el carrito
                                                     // inyectar un nuevo elemento al arreglo sera un objeto
     });
   };
 
   const removeProduct = (id, e) => {
     e.preventDefault();
-    console.log(removeProduct);
     setState({
       ...state,
       cart: state.cart.filter((cartProduct)=> cartProduct.id !== id)
@@ -44,7 +42,6 @@ export const WaitressHome = () => {
 
   const increase = (id, e) => {
     e.preventDefault(increase);
-    console.log(e.preventDefault(increase))
     setState({
       ...state,
       cart: state.cart.map((cartProduct) =>

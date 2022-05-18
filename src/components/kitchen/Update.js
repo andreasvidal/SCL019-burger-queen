@@ -1,41 +1,51 @@
+import { db } from "../../firebase";
+import { updateDoc, doc } from "firebase/firestore";
 import { useState } from "react";
-import {db} from "../../firebase"
-import {doc, updateDoc} from "../../firebase";
-export const Update = ({id, time, state, name, table, order, total}) => {
 
-const [preparation, setPreparation] = useState({state: {state: "Pendiente"}
+
+export const Update = ({id, time, table, name, status, total, order}) =>{
+
+const [state, setState] = useState({
+  status: {status: "Pendiente"}
 });
 
-const changeStatus = () => {
-  setPreparation({
-    ...preparation,
-    state: "Listo",
+  const changeStatus = () =>{
+    console.log(changeStatus)
+    setState({
+      ...state,
+      status: "Listo"
   })
 }
+  const updateStatus = async (e) =>{
+    e.preventDefault();
+    console.log("se actualiza?")
 
-const UpdateState = async (e) => {
-  e.preventDefault();
-        console.log('actualizando');
-
-        try {
-            await updateDoc(doc(db, "menu", id), {
-                estado: preparation,
-            });
-
-        } catch (error) {
-            console.log(error);
-        }
+    try {
+      await updateDoc(doc(db, "order", id),{
+        status: status
+      });
+    }catch(error){
+      console.log(error);
     }
-    return(
-      <form action="" onSubmit={UpdateState}>
+  }
+
+  return(
+    <main>
+      <form action="" onChange={updateStatus}>
         <div key={id}>
-        <p>{time}</p>
-        <p>nombre {name}</p>
-        <p>Mesa: {table}</p>
-        <span>Pedido: {order.map((item, index)=> <li key={index}>{item.count}-{item.name}</li>)}</span>
-        <p>{state.state}</p>
-        <button type="submit" onClick={changeStatus}>Listo</button>
+          <p>Hora: {time}</p>
+          <p>Mesa: {table}</p>
+          <p>Nomre: {name}</p>
+          <span>Pedido: {order.map((item, index)=>
+          <ul>
+            <li key={index}>{item.count}-{item.name}</li>
+          </ul>)}</span>
+          <p>Total :{total}</p>
+          <p>{status.status}</p>
+          <button type="submit" onClick={changeStatus}>Listo</button>
         </div>
       </form>
-    )
-  }
+    </main>
+  )
+}
+

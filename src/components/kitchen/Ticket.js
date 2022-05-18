@@ -1,51 +1,55 @@
 import { db } from "../../firebase";
-import { collection, onSnapshot, orderBy, query} from "../../firebase";
+import { collection, onSnapshot,  } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { ProductKitchen } from "./ProductKitchen";
+import { Header } from "../header/Header";
+import { UpdateTicket } from "./UpdateTicket";
 
-export const Ticket = ()=>{
-  const [ticket, setTickets] = useState([]);
 
+export const Ticket =()=>{
+
+  const [ticket, setTicket] = useState([]);
+  //funcion para mostar los pedidos en pantalla
   useEffect(() => {
-    const q = query(collection(db, "order"), orderBy('time', 'desc'));
-    onSnapshot(q, (snapshot) => {
-      //console.log('se ejecuto snapshot')
-      // console.log(snapshot.docs[0].data());
-      const array = snapshot.docs.map((document) => {
-        return { ...document.data(), id: document.id }
-
+    onSnapshot(collection(db, "order"),(snapshot) => {
+      const  arrayProduct = snapshot.docs.map((element) => {
+        return  {
+          ...element.data(), id: element.id
+        };
       })
-      setTickets(array);
-    },
-      (error) => {
-        console.log(error);
-      }
-    );
+      setTicket(arrayProduct)
+      console.log(setTicket(arrayProduct))
+    },(error)=>{
+      console.log(error)
+    })
   }, []);
 
-  const oldTicket = [...ticket]
-  //dentro del filtro ejecutamos un callback
-  const newTicket = oldTicket.filter((elem)=> {return elem.stated.stated === "Pedido listo "})
-  useEffect(()=>{
-    return (()=>{
-      console.log('Cerramos coneccion con la API')
-    });
-  }, []);
+  const oldStatus = [...ticket]
+  console.log(oldStatus)
+    //dentro del filtro ejecutamos un callback
+    const newStatus = oldStatus.filter((element)=>{return element.status === "Listo"})
+    console.log(newStatus)
+    useEffect(()=>{
+      return(()=>{
+        console.log('Cerramos coneccion con la API')
+      });
+    }, []);
 
-  return(
-    newState.length > 0 &&
-    <div>
-      {newTicket.map((order, index)=> (
-        <ProductKitchen key={index}
-          id={order.id}
-          time={order.time}
-          table={order.table}
-          name={order.name}
-          state={order.state}
-          total={order.total}
-          order={order.order}
-        />
-      ))}
-    </div>
-  )
+    return(
+      <main>
+      <div>
+      <Header/>
+        {newStatus.map((item, id)=>(
+          <UpdateTicket
+          key= {id}
+          id={item.id}
+          time={item.time}
+          table={item.table}
+          status={item.status}
+          total={item.total}
+          order={item.order}
+          />
+        ))}
+      </div>
+      </main>
+    )
 }

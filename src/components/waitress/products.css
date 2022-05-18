@@ -16,8 +16,8 @@
     background-color: #FFCB74;
     color: #2F2F2F;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4rem;
-    margin: 2rem 1rem;
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
     border: 0.1rem solid #FFCB74;
     border-radius: 3.75rem;
     padding: 1rem;
@@ -25,7 +25,8 @@
     height: auto;
 }
 
-.btn-products:hover {
+.btn-products:hover,
+.btn-center:hover {
     transition: 1s;
     cursor: pointer;
     transform: scale(1.15);
@@ -67,7 +68,7 @@
     border: 0.5px solid #FFCB74;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 4rem;
+    margin-left: 1.5rem;
 }
 
 .icons:hover {
@@ -78,4 +79,12 @@
 
 .p-items {
     color: #FFCB74;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    border-radius: 00.5rem;
 }

@@ -1,5 +1,6 @@
 import {Header} from "../header/Header"
-import {ProductKitchen } from "./ProductKitchen"
+import {ProductKitchen} from "../kitchen/ProductKitchen"
+
 
 export const DeliveredKitchen =()=>{
   return(
@@ -7,7 +8,5 @@ export const DeliveredKitchen =()=>{
     <div><Header/></div>
     <div><ProductKitchen/></div>
     </div>
-
-
   )
 }

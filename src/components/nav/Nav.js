@@ -33,10 +33,10 @@ export const Nav = () => {
           <Link className="items" to="/order" >
           <FiClipboard className="icon-menu"></FiClipboard>  TOMAR PEDIDOS
           </Link>
-          <Link className="items" to="/orders" >
+          <Link className="items" to="/Ticket" >
           <FiClock className="icon-menu"></FiClock>  PEDIDOS
           </Link>
-          <Link className="items" to="/delivered" >
+          <Link className="items" to="/Kitchen" >
           <FiCheckSquare className="icon-menu"></FiCheckSquare>  ENTREGADOS
           </Link>
         </ul>

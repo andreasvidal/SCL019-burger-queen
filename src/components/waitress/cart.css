@@ -1,15 +1,12 @@
 .form-count {
-    width: 32vw;
+    width: 35vw;
 }
 
 .container-resum {
     max-height: 50vh;
-    overflow-y: scroll;
-    scrollbar-color: #FFCB74 transparent;
-    scrollbar-width: thin;
-    width: 30vw;
     height: 40vh;
-    margin-left: 1rem;
+    margin: 0 1rem;
+    overflow-y: scroll;
 }
 
 .container-span {
@@ -26,13 +23,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.container-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .resum {
-    margin-top: 1vh;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    margin-left: 2rem;
 }
 
 .label-count {
@@ -41,11 +47,11 @@
     font-size: 1.5rem;
     background: none;
     width: 60%;
-    margin: 1.2rem 0 0 1.2rem;
+    margin: 1rem 0 0 1rem;
 }
 
 .position-count {
-    margin: 0 0 0 10rem;
+    margin: 0 0 0 7rem;
 }
 
 .bg-none {
@@ -55,11 +61,7 @@
     background-color: #f6f6f61f;
     margin-top: 5rem;
     border: 0.1rem solid #FFCB74;
-    border-radius: 3.75rem;
-}
-
-.btn-center {
-    margin-right: 11rem;
+    border-radius: 1.75rem;
 }
 
 .btn-resum {
@@ -74,4 +76,14 @@ hr {
     border-style: solid;
     color: #FFCB74;
     margin-top: 0.5rem;
+}
+
+.bg-icon {
+    border-radius: none;
+    border: none;
+}
+
+#hidden {
+    color: red;
+    font-size: 1.1rem;
 }
