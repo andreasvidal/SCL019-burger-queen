@@ -1,8 +1,9 @@
     .container-total {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: row;
         gap: 2rem;
         margin-top: 2rem;
+        flex-wrap: wrap;
     }
 
     .container-title {
