@@ -21,6 +21,17 @@
     flex-wrap: wrap;
 }
 
+.title-ok {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFCB74;
+    font-family: var(--font-main);
+    text-decoration: underline;
+}
+
 .container-update {
     box-shadow: rgba(0, 0, 0, 0.267) 1.95px 1.95px 2.6px;
 }
@@ -65,4 +76,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 3rem auto 1rem;
+}
+
+.form-container {
+    display: flex;
 }

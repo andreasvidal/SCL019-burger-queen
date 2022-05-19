@@ -36,7 +36,7 @@ export const ProductKitchen = () => {
               <div className="container-ready" key={id}>
               <p className="sutitle">Mesera: {item.name}</p>
               <p className="sutitle">Mesa: {item.table}</p>
-              <p className="sutitle">Fecha: {item.time}</p>
+              <p className="sutitle txt-date">Fecha: {item.time}</p>
               {item.order.map((item) => {
                 return (
                 <ul>

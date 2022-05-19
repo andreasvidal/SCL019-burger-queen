@@ -27,7 +27,8 @@ export const UpdateTicket = ({id, time, table, name, status, total, order}) => {
 
   return(
     <div className="container-update">
-      <form action="" onSubmit={(e)=>updateStatus(e)}>
+      <form action="" onSubmit={(e)=>updateStatus(e)} className="form-container">
+      <h1 className="title-ok">LISTO</h1>
         <div className="update-context" key={id}>
           <p className="sutitle-update">Mesa :{table}</p>
           <p className="sutitle-update">Nombre :{name}</p>

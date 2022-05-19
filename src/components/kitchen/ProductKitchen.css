@@ -43,6 +43,10 @@
     margin-top: 0.5rem;
 }
 
+.txt-date {
+    font-size: 0.9rem;
+}
+
 .container-ready,
 .list-ready {
     color: #f6f6f6;

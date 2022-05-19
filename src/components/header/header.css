@@ -19,8 +19,6 @@
     flex-direction: column;
     justify-items: left;
     width: 20%;
-    z-index: 2;
-    background-color: #2F2F2F;
     box-sizing: border-box;
 }
 
@@ -28,7 +26,6 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 2;
     height: 7rem;
     width: 7rem;
     margin: 1.4rem;
