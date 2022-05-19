@@ -1,6 +1,6 @@
 .form-count {
-    width: 25rem;
-    margin-left: 2rem;
+    width: 100%;
+    margin-left: 1rem;
 }
 
 .container-resum {
@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .resum {
