@@ -4,7 +4,7 @@ import {WaitressHome} from "../src/components/waitress/Order"
 import {DeliveredKitchen} from "../src/components/kitchen/DeliveredKitchen"
 import {Ticket} from "../src/components/kitchen/Ticket"
 import "./App.css"
-
+import error404 from "../src/img/404.png"
 
 const App = () => {
   return (
@@ -16,8 +16,8 @@ const App = () => {
           <Route path="/Ticket" element={<Ticket/>}/>
           <Route path="*" element={
             <div>
-              <h1>PAGINA NO ENCONTRADA ERROR 404</h1>
-              <h2>La URL a la que ingresaste es incorrecta.</h2>
+            <h1>¡Ups dirección no encontrada!</h1>
+              <img src={error404} />
             </div>
           }/>
         </Routes>

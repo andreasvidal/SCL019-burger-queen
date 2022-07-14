@@ -16,3 +16,16 @@ body, html{
   font-family: 'Roboto', sans-serif;
   background-color: #1E2022;
 }
+h1{
+  color: #FFCB74;
+  text-align: center;
+margin: 2rem;
+}
+img{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  padding: 1rem;
+  margin: auto 30%;
+}
