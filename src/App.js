@@ -3,7 +3,7 @@ import {Home} from "../src/components/Home";
 import {WaitressHome} from "../src/components/waitress/Order"
 import {DeliveredKitchen} from "../src/components/kitchen/DeliveredKitchen"
 import {Ticket} from "../src/components/kitchen/Ticket"
-
+import "./App.css"
 
 
 const App = () => {

@@ -23,11 +23,10 @@
 }
 
 .header-logo {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
     margin: 1.4rem;
     background: none;
 }

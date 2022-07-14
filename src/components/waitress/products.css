@@ -9,6 +9,7 @@
 
 .container-btn {
     margin-top: -3rem;
+    padding-left: 1.5rem;
 }
 
 .btn-products,
@@ -20,7 +21,7 @@
     margin: 1rem 0.5rem;
     border: 0.1rem solid #FFCB74;
     border-radius: 3.75rem;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 20vh;
     height: auto;
 }
@@ -38,16 +39,15 @@
     border-radius: 1rem;
     padding-top: 0.5rem;
     margin: 0.6rem;
-    width: 10rem;
+    width: 7rem;
 }
 
 .title-items {
     color: #f6f6f6;
+    padding-top: 0.2rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 0.2rem;
-    margin: 0.2rem;
+    font-size: 1.2rem;
     background: none;
 }
 
@@ -55,10 +55,6 @@
     margin-top: 0.5rem;
     background: none;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .icons {
@@ -68,7 +64,8 @@
     border: 0.5px solid #FFCB74;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
+    position: relative;
 }
 
 .icons:hover {
@@ -85,6 +82,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10rem;
-    border-radius: 00.5rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    height: 5rem;
 }
