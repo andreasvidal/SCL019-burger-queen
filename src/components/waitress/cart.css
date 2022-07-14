@@ -81,6 +81,12 @@
     text-align: center;
 }
 
+.btn-center{
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0.5rem 3rem;
+}
+
 .btn-center:hover {
   background: #242424;
   transition: 0.3s;
