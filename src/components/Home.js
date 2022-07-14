@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <main>
       <div className="container-img">
-        <img  className="img-logo" src={logo} alt="logo principal" />
+        <img className="img-logo" src={logo} alt="logo principal" />
       </div>
       <div className="container">
         <h1 className="title-home">SPACEGRILL</h1>
