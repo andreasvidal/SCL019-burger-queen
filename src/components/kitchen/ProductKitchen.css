@@ -1,68 +1,72 @@
 .title-ready {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #FFCB74;
-    font-family: var(--font-main);
-    margin: 10rem 0 1rem 0;
-    text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffcb74;
+  font-family: var(--font-main);
+  margin: 10rem 0 1rem 0;
+  text-decoration: underline;
 }
 
 .container-products {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    box-shadow: rgba(0, 0, 0, 0.267) 1.95px 1.95px 2.6px;
-    align-content: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.267) 1.95px 1.95px 2.6px;
+  align-content: center;
+  justify-content: center;
 }
 
 .btn-ready {
-    border: none;
-    margin: 0.5rem 5rem 0 5rem;
+  border: none;
+  background: #2f2f2f;
+  margin: auto;
+  display: block;
 }
 
 .icon-ready {
-    height: 2rem;
-    width: 2rem;
-    color: #FFCB74;
-    border: 0.5px solid #FFCB74;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 0.5rem;
-    background-color: none;
+  height: 2rem;
+  width: 2rem;
+  color: #ffcb74;
+  border: 0.5px solid #ffcb74;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: auto;
+  background: #2f2f2f;
 }
 
 .sutitle {
-    color: #FFCB74;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    background: none;
-    text-align: center;
-    margin-top: 0.5rem;
+  color: #ffcb74;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  background: none;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .txt-date {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
-.container-ready,
-.list-ready>li {
-    color: #f6f6f6;
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    font-size: 1.1rem;
-    margin: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.267) 1.95px 1.95px 2.6px;
-    background: #2F2F2F;
-    width: max-content;
-    list-style: none;
-}
-
-li::marker{
+.container-ready {
+  color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
   list-style: none;
-  display: none;
-  margin-left: 1rem;
+  font-size: 1.1rem;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.267) 1.95px 1.95px 2.6px;
+  background: #2f2f2f;
+  width: max-content;
+  list-style: none;
+  padding: 1rem;
+}
+
+.list-ready {
+  list-style: none;
+  background: #2f2f2f;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
 }

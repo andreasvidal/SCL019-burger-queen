@@ -27,11 +27,10 @@ export const UpdateTicket = ({id, time, table, name, status, total, order}) => {
 
   return(
     <div className="container-update">
-    <h1 className="title-ok">LISTO</h1>
       <form action="" onSubmit={(e)=>updateStatus(e)} className="form-container">
         <div className="update-context" key={id}>
-          <p className="sutitle-update">Mesa :{table}</p>
-          <p className="sutitle-update">Nombre :{name}</p>
+          <p className="sutitle-update">Mesa: {table}</p>
+          <p className="sutitle-update">Nombre: {name}</p>
           <p className="sutitle-update">Fecha: {time}</p>
           <span className="sutitle-update uptdate-items">
             Pedido:
@@ -44,8 +43,9 @@ export const UpdateTicket = ({id, time, table, name, status, total, order}) => {
             );
           })}
           </span>
-          <p className="sutitle">Total :{total}</p>
+          <p className="sutitle">Total: ${total}</p>
           <p>{status.status}</p>
+          <h1 className="title-ok">LISTO</h1>
           <button className="btn-ready" type="submit" onClick={(e) => changeSatus(e)}><FcApproval className="icon-ready"/></button>
         </div>
       </form>
