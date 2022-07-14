@@ -26,9 +26,8 @@
     height: auto;
 }
 
-.btn-products:hover,
-.btn-center:hover {
-    transition: 1s;
+.btn-products:hover {
+    transition: 0.5s;
     cursor: pointer;
     transform: scale(1.15);
 }

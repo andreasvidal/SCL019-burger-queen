@@ -1,19 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    background-color: #1E2022;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
-:root {
-    --bg-color: #1E2022;
-    --bg--menu: #2F2F2F;
-    --txt-menu: #F6F6F6;
-    --principal-txt-color: #FFCB74;
-    --font-main: 'Roboto', sans-serif;
-}
-
 .container,
 .container-links {
     display: flex;
@@ -21,7 +7,7 @@
     justify-items: center;
     align-items: center;
     text-align: center;
-    margin: 3rem;
+    margin: 2.5rem;
 }
 
 .container-img {
@@ -52,13 +38,13 @@
 
 .links {
     width: 17rem;
-    height: 5rem;
+    height: 3.5rem;
     background: #FFCB74;
     border: 0.5rem solid #1E2022;
     border-radius: 1.5rem;
     text-decoration: none;
     color: var(--bg-color);
-    font-size: 2.25rem;
+    font-size: 2rem;
     cursor: pointer;
     margin: 1rem;
     font-weight: bold;
@@ -68,7 +54,11 @@
 
 .links:hover {
     background-color: var(--txt-menu);
-    transition: 2s;
+    transition: 0.3s;
     color: #FFCB74;
     -webkit-text-stroke: 0.1rem #0a0a0a;
+}
+
+.links>a{
+  margin-top: 0.1rem;
 }

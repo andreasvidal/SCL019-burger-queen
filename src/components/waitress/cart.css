@@ -6,8 +6,10 @@
 .container-resum {
     max-height: 50vh;
     height: 40vh;
+    width: 90%;
     margin: 0 1rem;
-    overflow-y: scroll;
+    overflow-y: scroll ;
+    background: #242424 ;
 }
 
 .container-span {
@@ -15,12 +17,16 @@
     flex: 0 0 33.3333%;
     background: none;
     text-align: right;
+    margin-right: 1rem;
+    width: auto;
+    overflow: hidden;
 }
 
 .total-count {
     display: flex;
     flex-direction: row;
     margin-right: 1rem;
+    margin-top: 0.1rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -46,14 +52,14 @@
 .label-count {
     color: #f6f6f6;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     background: none;
     width: 50%;
     margin: 1rem 0 0 1rem;
 }
 
 .position-count {
-    margin: 0 0 0 7rem;
+    margin: 0.5rem 0 0 10rem;
 }
 
 .bg-none {
@@ -64,7 +70,7 @@
     margin-top: 10rem;
     border: 0.1rem solid #FFCB74;
     border-radius: 1.75rem;
-    width: max-content;
+    width: auto;
 }
 
 .btn-resum {
@@ -73,6 +79,13 @@
     justify-content: center;
     align-self: center;
     text-align: center;
+}
+
+.btn-center:hover {
+  background: #242424;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #FFCB74;
 }
 
 hr {
